@@ -6,25 +6,34 @@ I am designing a database schema to contain three tables:
 
 ![Database Schema](Assets/schema.png)
 
-* **department**:
+- **department**:
 
-  * **id** - INT PRIMARY KEY
-  * **name** - VARCHAR(30) to hold department name
+  - **id** - INT PRIMARY KEY
+  - **name** - VARCHAR(30) to hold department name
 
-* **role**:
+- **role**:
 
-  * **id** - INT PRIMARY KEY
-  * **title** -  VARCHAR(30) to hold role title
-  * **salary** -  DECIMAL to hold role salary
-  * **department_id** -  INT to hold reference to department role belongs to
+  - **id** - INT PRIMARY KEY
+  - **title** - VARCHAR(30) to hold role title
+  - **salary** - DECIMAL to hold role salary
+  - **department_id** - INT to hold reference to department role belongs to
 
-* **employee**:
+- **employee**:
 
-  * **id** - INT PRIMARY KEY
-  * **first_name** - VARCHAR(30) to hold employee first name
-  * **last_name** - VARCHAR(30) to hold employee last name
-  * **role_id** - INT to hold reference to role employee has
-  * **manager_id** - INT to hold reference to another employee that manages the employee being Created. This field may be null if the employee has no manager.
+  - **id** - INT PRIMARY KEY
+  - **first_name** - VARCHAR(30) to hold employee first name
+  - **last_name** - VARCHAR(30) to hold employee last name
+  - **role_id** - INT to hold reference to role employee has
+  - **manager_id** - INT to hold reference to another employee that manages the employee being Created. This field may be null if the employee has no manager.
 
-  In the end, I will share the outcome of this repo by providing a deployed image of it.
-  
+Here is the deployed version of my employee tracker, for your viewing pleasure:
+https://drive.google.com/file/d/1B-SJwNEGjLkPMmJU2q2npGkznn6w3vga/view
+
+VIDEO POSTING NOT WORKING......
+
+<iframe src="https://drive.google.com/file/d/1B-SJwNEGjLkPMmJU2q2npGkznn6w3vga/preview" width="640" height="480"></iframe>
+
+Created by: Zana Mathuthu
+Email: Zana@intercomstaffing.com
+GitHub: Zanamama
+LinkedIn: www.linkedin.com/in/zanamathuthu
